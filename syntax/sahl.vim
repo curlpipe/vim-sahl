@@ -1,0 +1,11 @@
+syn match Comment '\s*\/\/.*$'
+syn match Comment '\/\*\_.*\*\/'
+syn match Function '\.\w*'
+syn match Keyword '[a-z\-]*\s*:'
+syn match Keyword '[a-z\-]*\s*=\s*'
+syn region String start="\"" end="\""
+syn match Statement '^\s*@.*$'
+syn match Statement '}'
+syn match Statement '{'
+syn match Function '\]'
+syn match Function '\['
