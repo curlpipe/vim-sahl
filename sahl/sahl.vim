@@ -4,5 +4,5 @@
 " Latest Revision: 23 April 2020
 
 autocmd Filetype sahl setlocal ts=2 sw=2 expandtab
-au BufWritePost *.sahl silent exec "!sahl -s <afile>"
+au BufWritePost *.sahl silent exec "!sahl <afile>"
 au BufRead,BufNewFile *.sahl set filetype=sahl
